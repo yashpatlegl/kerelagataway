@@ -18,38 +18,113 @@
           <a class="nav-items" href="contact.html">Contacts</a>
         </nav>
       </header>
-    <section class="destinations">
-        <h2 class="section-title">EXPLORE OUR DESTINATIONS</h2>
-        <div class="dest_grid">
-            <div class="dest_card">
-                <img src="img/images/munnar.jpg" alt="Munnar">
-                <div class="overlay">
-                    <h3 class="dest_name">M U N N A R</h3>
-                    <button>Explore Packages</button>
-                </div> 
-            </div>
-            <div class="dest_card">
-                <img src="img/images/kochi.jpg" alt="Kochi">
-                <div class="overlay">
-                    <h3 class="dest_name">K O C H I</h3>
-                    <button>Explore Packages</button>
-                </div>
-            </div>
-            <div class="dest_card">
-                <img src="/img/images/allepey.jpg" alt="Alleppey">
-                <div class="overlay">
-                    <h3 class="dest_name">A L L E P P E Y</h3>
-                    <button>Explore Packages</button>
-                </div>
-            </div>
-            <div class="dest_card">
-                <img src="/img/images/wayanad.jpg" alt="Wayanad">
-                <div class="overlay">
-                    <h3 class="dest_name">W A Y A N A D</h3>
-                    <button>Explore Packages</button>
-                </div>
-            </div>
+    <!-- Destinations Section -->
+<section class="destinations">
+    <h2 class="section-title">EXPLORE OUR DESTINATIONS</h2>
+    <div class="dest_grid">
+      <!-- Munnar Card -->
+      <div class="dest_card">
+        <img src="img/images/munnar.jpg" alt="Munnar">
+        <div class="overlay">
+          <h3>M U N N A R</h3>
+          <button onclick="openModal('munnarModal')">Explore Packages</button>
         </div>
-    </section>
+      </div>
+  
+      <!-- Kochi Card -->
+      <div class="dest_card">
+        <img src="img/images/kochi.jpg" alt="Kochi">
+        <div class="overlay">
+          <h3>K O C H I</h3>
+          <button onclick="openModal('kochiModal')">Explore Packages</button>
+        </div>
+      </div>
+  
+      <!-- Alleppey Card -->
+      <div class="dest_card">
+        <img src="img/images/allepey.jpg" alt="Alleppey">
+        <div class="overlay">
+          <h3>A L L E P P E Y</h3>
+          <button onclick="openModal('alleppeyModal')">Explore Packages</button>
+        </div>
+      </div>
+  
+      <!-- Wayanad Card -->
+      <div class="dest_card">
+        <img src="img/images/wayanad.jpg" alt="Wayanad">
+        <div class="overlay">
+          <h3>W A Y A N A D</h3>
+          <button onclick="openModal('wayanadModal')">Explore Packages</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal for Munnar -->
+  <div class="package-modal" id="munnarModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('munnarModal')">&times;</span>
+      <h3>3-Day Munnar Getaway</h3>
+      <ul>
+        <li><strong>Day 1:</strong> Arrival and sightseeing</li>
+        <li><strong>Day 2:</strong> Tea estate visit & adventure trek</li>
+        <li><strong>Day 3:</strong> Departure after leisure breakfast</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Modal for Kochi -->
+  <div class="package-modal" id="kochiModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('kochiModal')">&times;</span>
+      <h3>4-Day Kochi Experience</h3>
+      <ul>
+        <li><strong>Day 1:</strong> Arrival and Fort Kochi walk</li>
+        <li><strong>Day 2:</strong> Kathakali dance performance and spice tour</li>
+        <li><strong>Day 3:</strong> Backwater cruise and sunset view</li>
+        <li><strong>Day 4:</strong> Departure after leisure shopping</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Modal for Alleppey -->
+  <div class="package-modal" id="alleppeyModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('alleppeyModal')">&times;</span>
+      <h3>3-Day Alleppey Backwater Tour</h3>
+      <ul>
+        <li><strong>Day 1:</strong> Arrival and check-in at backwater houseboat</li>
+        <li><strong>Day 2:</strong> Explore backwaters, traditional village life</li>
+        <li><strong>Day 3:</strong> Departure after a morning boat ride</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Modal for Wayanad -->
+  <div class="package-modal" id="wayanadModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal('wayanadModal')">&times;</span>
+      <h3>4-Day Wayanad Adventure</h3>
+      <ul>
+        <li><strong>Day 1:</strong> Arrival and trek to Edakkal caves</li>
+        <li><strong>Day 2:</strong> Visit to Wayanad Wildlife Sanctuary</li>
+        <li><strong>Day 3:</strong> Waterfalls exploration and tribal village tour</li>
+        <li><strong>Day 4:</strong> Departure after a nature walk</li>
+      </ul>
+    </div>
+  </div> 
+
+  <script>
+    // Function to open the modal
+    function openModal(modalId) {
+      document.getElementById(modalId).style.display = 'flex';
+    }
+    
+    // Function to close the modal
+    function closeModal(modalId) {
+      document.getElementById(modalId).style.display = 'none';
+    }
+    </script>
+    
 </body>
 </html>
