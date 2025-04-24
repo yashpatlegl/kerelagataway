@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Footer</title>
+  <link rel="stylesheet" href="navbar.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .cta-footer {
+      background-color: #007bff;
+      color: white;
+      
+      padding: 50px;
+      text-align: left;
+    }
+
+    .cta-footer h1 {
+      font-size: 36px;
+      margin: 0 0 20px 0;
+    }
+
+    .cta-footer p {
+      font-size: 16px;
+      margin: 0 0 20px 0;
+    }
+
+    .cta-footer .cta-button {
+      display: inline-block;
+      padding: 15px 30px;
+      border: 2px solid white;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .cta-footer .cta-button:hover {
+      background-color: white;
+      color: #007bff;
+      transform: scale(1.05);
+    }
+
+    .upper-footer {
+      background-color: #34495e;
+      color: #ecf0f1;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      flex-wrap: wrap;
+    }
+
+    .upper-footer .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .upper-footer .logo img {
+      width: 60px;
+      margin-right: 10px;
+      border-radius: 50px;
+    }
+
+    .upper-footer .logo h2 {
+      margin: 0;
+    }
+
+    .upper-footer .contact-info,
+    .upper-footer .subscribe {
+      padding: 0 20px;
+      margin-top: 20px;
+    }
+
+    .upper-footer .contact-info p,
+    .upper-footer .subscribe p {
+      margin: 5px 0;
+    }
+
+    .subscribe input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .subscribe input[type="email"]:focus {
+      outline: none;
+      box-shadow: 0 0 8px #1abc9c;
+    }
+
+    .subscribe button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: #1abc9c;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .subscribe button:hover {
+      background-color: #16a085;
+      transform: scale(1.05);
+    }
+
+    
+    .lower-footer {
+      background-color: #2c3e50;
+      color: #bdc3c7;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+
+    
+    .cta-footer, .upper-footer, .lower-footer {
+      animation: fadeInUp 0.7s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <a class="nav-items active" href="index.html">Home</a>
+          <a class="nav-items" href="about.html">About</a>
+          <a class="nav-items"  href="Reviews.html">Reviews</a>
+          <a class="nav-items" href="dest_package.html">Gallery</a>
+          <a class="nav-items" href="contact.html">Contacts</a>
+        </nav>
+      </header>
+  <div class="cta-footer">
+    <div>
+    <h1>READY FOR UNFORGETTABLE TRAVEL. REMEMBER US!</h1>
+    <p>Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.</p>
+    </div>
+    <div>
+    <a href="#" class="cta-button">CONTACT US !</a>
+    </div>
+  </div>
+
+  <div class="upper-footer">
+    <div class="logo">
+      <img src="/trip.gif" alt="Logo" />
+      <h2>TOURLY</h2>
+    </div>
+    <div class="contact-info">
+      <h3>Contact Us</h3>
+      <p>Feel free to reach us!</p>
+      <p>📞 +01 (123) 4567 890</p>
+      <p>📧 info.tourly@example.com</p>
+      <p>📍 3146 Koontz, California</p>
+    </div>
+    <div class="subscribe">
+      <h3>Subscribe to our newsletter</h3>
+      <p>Stay updated with our latest news</p>
+      <input type="email" placeholder="Enter Your Email" />
+      <button>Subscribe</button>
+    </div>
+  </div>
+
+
+  <div class="lower-footer">
+    <p>&copy; 2025 Tourly. All Rights Reserved.</p>
+  </div>
+</body>
+</html>
