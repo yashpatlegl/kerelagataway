@@ -1,0 +1,123 @@
+[
+    {
+      "id": "1",
+      "name": "Touseeq Ijaz",
+      "review": "The Kochi tour was fantastic! Our guide was knowledgeable, and we saw so many beautiful sights. Highly recommend!",
+      "visitsLocation": "Kochi",
+      "visitedAgo": "2 weeks ago",
+      "profilePicId": "c-3"
+    },
+    {
+      "id": "2",
+      "name": "J.K Rowling",
+      "review": "The Alleppey houseboat experience was truly magical. Drifting through the backwaters was so peaceful. The food was also delicious!",
+      "visitsLocation": "Alleppey",
+      "visitedAgo": "1 month ago",
+      "profilePicId": "c-2"
+    },
+    {
+      "id": "3",
+      "name": "Harry Potter",
+      "review": "Wayanad's green hills and waterfalls were breathtaking. We had an amazing time trekking and exploring the wildlife sanctuaries. The local cuisine was also a highlight of the trip. I would definitely visit again!",
+      "visitsLocation": "Wayanad",
+      "visitedAgo": "3 days ago",
+      "profilePicId": "c-1"
+    },
+    {
+      "id": "4",
+      "name": "Oliva",
+      "review": "Munnar's tea plantations are stunning! The air was so fresh, and the views were incredible. A perfect getaway. I especially enjoyed the tea tasting session.",
+      "visitsLocation": "Munnar",
+      "visitedAgo": "1 week ago",
+      "profilePicId": "c-4"
+    },
+    {
+      "id": "5",
+      "name": "Sophia Williams",
+      "review": "We had a wonderful multi-city tour covering Kochi, Alleppey, and Munnar. Everything was well-organized, and the accommodations were great. A truly memorable trip! The backwater cruise in Alleppey was a highlight, followed by the scenic beauty of Munnar.",
+      "visitsLocation": "Kochi, Alleppey & Munnar",
+      "visitedAgo": "3 weeks ago",
+      "profilePicId": "c-5"
+    },
+    {
+      "id": "6",
+      "name": "Ethan Brown",
+      "review": "The spice plantations in Wayanad were fascinating. We learned so much about the different spices and their uses. The guide was excellent and very informative. I highly recommend this tour for anyone interested in nature and culture.",
+      "visitsLocation": "Wayanad",
+      "visitedAgo": "2 months ago",
+      "profilePicId": "c-6"
+    },
+
+        {
+          "id": "7",
+          "name": "Isabella Garcia",
+          "review": "The Munnar hills were covered in mist, creating a truly enchanting atmosphere. Our guide pointed out various tea estates and explained the tea-making process. A very informative and scenic tour!",
+          "visitsLocation": "Munnar",
+          "visitedAgo": "4 weeks ago",
+          "profilePicId": "c-8"
+        },
+        {
+          "id": "8",
+          "name": "William Chen",
+          "review": "Exploring the backwaters of Alleppey on a traditional houseboat was a unique experience. The scenery was serene, and the local food served on board was delicious. Highly recommended for a relaxing getaway.",
+          "visitsLocation": "Alleppey",
+          "visitedAgo": "6 days ago",
+          "profilePicId": "c-9"
+        },
+        {
+          "id": "9",
+          "name": "Sofia Dubois",
+          "review": "Our trip to Wayanad was filled with adventure! From trekking to waterfalls to visiting ancient caves, there was something for everyone. The natural beauty of the region is simply stunning.",
+          "visitsLocation": "Wayanad",
+          "visitedAgo": "2 weeks ago",
+          "profilePicId": "c-14"
+        },
+        {
+          "id": "10",
+          "name": "James O'Connell",
+          "review": "Kochi's blend of history and modernity is fascinating. Exploring Fort Kochi with its Chinese fishing nets and colonial architecture was a highlight of our Kerala trip. The spice markets were also very interesting.",
+          "visitsLocation": "Kochi",
+          "visitedAgo": "3 months ago",
+          "profilePicId": "c-10"
+        },
+        {
+          "id": "11",
+          "name": "Olivia Rodriguez",
+          "review": "We took a family trip covering Munnar and Alleppey. The kids loved the houseboat, and we enjoyed the peaceful tea gardens. The itinerary was well-paced and suitable for all ages.",
+          "visitsLocation": "Munnar & Alleppey",
+          "visitedAgo": "1 month ago",
+          "profilePicId": "c-15"
+        },
+        {
+          "id": "12",
+          "name": "Noah Kim",
+          "review": "The wildlife sanctuary in Wayanad was a treat for nature lovers. We spotted various birds and animals in their natural habitat. Our guide was knowledgeable about the local flora and fauna.",
+          "visitsLocation": "Wayanad",
+          "visitedAgo": "1 week ago",
+          "profilePicId": "c-12"
+        },
+        {
+          "id": "13",
+          "name": "Ava Wilson",
+          "review": "The Kathakali dance performance we saw in Kochi was captivating. It was a great introduction to the local culture and art forms of Kerala. The costumes and makeup were incredible.",
+          "visitsLocation": "Kochi",
+          "visitedAgo": "5 weeks ago",
+          "profilePicId": "c-15"
+        },
+        {
+          "id": "11",
+          "name": "Lucas Silva",
+          "review": "Our honeymoon trip to Alleppey was unforgettable. The serene backwaters, the romantic houseboat, and the delicious food made it a perfect getaway. Thank you for the wonderful experience!",
+          "visitsLocation": "Alleppey",
+          "visitedAgo": "2 months ago",
+          "profilePicId": "c-13"
+        },
+        {
+          "id": "15",
+          "name": "Mia Dubois",
+          "review": "Exploring the spice plantations in Wayanad was an aromatic delight. We learned about different spices like cardamom, cloves, and pepper. We even got to taste some fresh spices!",
+          "visitsLocation": "Wayanad",
+          "visitedAgo": "10 days ago",
+          "profilePicId": "c-8"
+        }
+      ]
